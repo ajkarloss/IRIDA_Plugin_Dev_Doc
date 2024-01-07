@@ -8,4 +8,8 @@ Step by step handson doc for anyone who wants to develop new plugin for IRIDA
 
 # Prerequisite
 IRIDA - Locally Installed
+<img width="1043" alt="Screenshot 2024-01-07 at 15 49 40" src="https://github.com/ajkarloss/IRIDA_Plugin_Dev_Doc/assets/15940041/20dd8b26-4497-493d-b139-88cbc2e52a98">
+
+https://phac-nml.github.io/irida-documentation/developer/tools/pipelines/#4-test-in-irida
+
 Galaxy - Locally Installed 
