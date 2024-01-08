@@ -34,14 +34,20 @@ Galaxy - Locally Installed
 
 # Converting Galaxy workflow to IRIDA plugin
 
-* cd /home/irida/
-* git clone https://github.com/phac-nml/irida-plugin-example
-* cd  irida-plugin-example/
+* ```cd /home/irida/```
+* ```git clone https://github.com/phac-nml/irida-plugin-example```
+* change name ```mv irida-plugin-example/ serotypefinder/```
+* ```cd serotypefinder/```
 
 IRIDA provides a java file to create the templates (information and XML files) for the plugin development
 
 * https://github.com/phac-nml/irida-wf-ga2xml/releases 
-* git clone https://github.com/phac-nml/irida-wf-ga2xml/releases#:~:text=irida%2Dwf%2Dga2xml%2D1.2.1%2Dstandalone.jar 
+* git clone https://github.com/phac-nml/irida-wf-ga2xml/releases#:~:text=irida%2Dwf%2Dga2xml%2D1.2.1%2Dstandalone.jar
 
+```
+java -jar irida-wf-ga2xml-1.2.1-standalone.jar -n SeroTypeFinder -t SeroTypeFinder -W 1.0.0 -o output -i Galaxy-Workflow-SerotyperFinder.ga
+```
+
+* Results are stored in ```output/``` folder
 
  
