@@ -53,6 +53,12 @@ java -jar irida-wf-ga2xml-1.2.1-standalone.jar -n SeroTypeFinder -t SeroTypeFind
 * Directories which are important:
   * galaxy Workflow, plugin information and XML files ```serotyper/src/main/resources/workflows/```
   * Java files ```/src/main/java/ca/corefacility/bioinformatics/irida/plugins/```
+* Change java file names
+  * ```cd /src/main/java/ca/corefacility/bioinformatics/irida/plugins/```
+  * ```mv ExamplePlugin.java SeroTypeFinderPlugin.java```
+  * ```mv ExamplePluginUpdater.java SeroTypeFinderPluginUpdater.java```
 
-
+* Edit the ```serotypefinder/pom.xml``` file
+* Edit the ```SeroTypeFinderPlugin.java```
+* Edit the ```SeroTypeFinderPluginUpdater.java```
  
