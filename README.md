@@ -38,6 +38,10 @@ Galaxy - Locally Installed
 * git clone https://github.com/phac-nml/irida-plugin-example
 * cd  irida-plugin-example/
 
+IRIDA provides a java file to create the templates (information and XML files) for the plugin development
+
+* https://github.com/phac-nml/irida-wf-ga2xml/releases 
+* git clone https://github.com/phac-nml/irida-wf-ga2xml/releases#:~:text=irida%2Dwf%2Dga2xml%2D1.2.1%2Dstandalone.jar 
 
 
  
