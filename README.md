@@ -50,7 +50,9 @@ java -jar irida-wf-ga2xml-1.2.1-standalone.jar -n SeroTypeFinder -t SeroTypeFind
 
 * Results are stored in ```output/``` folder
 * Copy the outputs ```cp output/SeroTypeFinder/1.0.0/* serotyper/src/main/resources/workflows/1.0.0/```
-* Directories which are important: ```serotyper/src/main/resources/workflows/``` and ```/src/main/java/ca/corefacility/bioinformatics/irida/plugins/```
+* Directories which are important:
+  * galaxy Workflow, plugin information and XML files ```serotyper/src/main/resources/workflows/```
+  * Java files ```/src/main/java/ca/corefacility/bioinformatics/irida/plugins/```
 
 
  
