@@ -61,4 +61,9 @@ java -jar irida-wf-ga2xml-1.2.1-standalone.jar -n SeroTypeFinder -t SeroTypeFind
 * Edit the ```serotypefinder/pom.xml``` file
 * Edit the ```SeroTypeFinderPlugin.java```
 * Edit the ```SeroTypeFinderPluginUpdater.java```
- 
+
+# Build the plugin 
+* ```mvn clean package```
+* check the ```target/```folder for ```SeroTypeFinder-1.0.0.jar``` file
+* Transfer the file to ```/etc/irida/plugins/```in IRIDA VM
+* Restart the tomcat 
