@@ -36,6 +36,8 @@ Galaxy - Locally Installed
 
 * cd /home/irida/
 * git clone https://github.com/phac-nml/irida-plugin-example
-* cd  
+* cd  irida-plugin-example/
+
+
 
  
