@@ -20,5 +20,8 @@ Galaxy - Locally Installed
 
 Input box should be "list:paired" and the name should be ""
 
-3.  
+*Test the workflow to make sure it produces the expected output
+*Export the workflow
+
+
  
