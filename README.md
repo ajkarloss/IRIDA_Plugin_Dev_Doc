@@ -18,7 +18,9 @@ Galaxy - Locally Installed
 2. Create galaxy workflow for SeroTypeFinder
  <img width="896" alt="Screenshot 2024-01-07 at 20 33 25" src="https://github.com/ajkarloss/IRIDA_Plugin_Dev_Doc/assets/15940041/14f7cf31-b088-4740-877c-4714a84a6ef0">
 
-Input box should be "list:paired" and the name should be ""
+Input box should be "list:paired" and the name should be "sequence_reads_pair"
+<img width="282" alt="Screenshot 2024-01-08 at 12 11 32" src="https://github.com/ajkarloss/IRIDA_Plugin_Dev_Doc/assets/15940041/5d11e4ea-2707-4b3c-8358-3b807b717b59">
+
 
 *Test the workflow to make sure it produces the expected output
 *Export the workflow
