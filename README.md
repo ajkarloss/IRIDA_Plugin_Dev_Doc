@@ -32,5 +32,10 @@ Galaxy - Locally Installed
 * Test the workflow to make sure it produces the expected output
 * Export the workflow
 
+# Converting Galaxy workflow to IRIDA plugin
+
+* cd /home/irida/
+* git clone https://github.com/phac-nml/irida-plugin-example
+* cd  
 
  
