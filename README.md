@@ -29,6 +29,7 @@ Galaxy - Locally Installed
 
 
 * Test the workflow to make sure it produces the expected output
+* Rename the output files and change data type also
 * Export the workflow
 
 # Converting Galaxy workflow to IRIDA plugin
@@ -56,15 +57,21 @@ java -jar irida-wf-ga2xml-1.2.1-standalone.jar -n SeroTypeFinder -t SeroTypeFind
   * ```cd /src/main/java/ca/corefacility/bioinformatics/irida/plugins/```
   * ```mv ExamplePlugin.java SeroTypeFinderPlugin.java```
   * ```mv ExamplePluginUpdater.java SeroTypeFinderPluginUpdater.java```
-
-* Edit the ```serotypefinder/pom.xml``` file
+ <br />  <br />
+* Edit the ```src/main/resources/workflows/1.0.0/messages_en.properties``` file <br />
+  https://github.com/NorwegianVeterinaryInstitute/irida-nvi-serotypefinder/blob/main/src/main/resources/workflows/1.0.0/irida_workflow.xml 
+   <br />  <br />
+* Edit the ```src/main/resources/workflows/1.0.0/messages_en.properties``` file <br /> 
+  https://github.com/NorwegianVeterinaryInstitute/irida-nvi-serotypefinder/blob/main/src/main/resources/workflows/1.0.0/messages_en.properties
+   <br />  <br />
+* Edit the ```serotypefinder/pom.xml``` file  <br />
    https://github.com/NorwegianVeterinaryInstitute/irida-nvi-serotypefinder/blob/main/pom.xml
 <img width="1321" alt="Screenshot 2024-01-09 at 09 28 37" src="https://github.com/ajkarloss/IRIDA_Plugin_Dev_Doc/assets/15940041/547be975-70c7-43e8-a726-0c92ff7a62be">
-
-  
-* Edit the ```SeroTypeFinderPlugin.java```
-   https://github.com/NorwegianVeterinaryInstitute/irida-nvi-serotypefinder/blob/main/src/main/java/ca/corefacility/bioinformatics/irida/plugins/SeroTypeFinderPlugin.java 
-* Edit the ```SeroTypeFinderPluginUpdater.java```
+   <br />  <br />
+* Edit the ```SeroTypeFinderPlugin.java```  <br /> 
+   https://github.com/NorwegianVeterinaryInstitute/irida-nvi-serotypefinder/blob/main/src/main/java/ca/corefacility/bioinformatics/irida/plugins/SeroTypeFinderPlugin.java
+   <br />  <br />
+* Edit the ```SeroTypeFinderPluginUpdater.java```  <br />
    https://github.com/NorwegianVeterinaryInstitute/irida-nvi-serotypefinder/blob/main/src/main/java/ca/corefacility/bioinformatics/irida/plugins/SeroTypeFinderPluginUpdater.java
 
 # Build the plugin 
